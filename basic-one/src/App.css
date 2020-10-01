@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+}
+table{
+  margin: 0 auto;
+  font-size: 18px;
+}
+table tr td{
+  border: 1px solid black;
+  width: 200px;
+}
