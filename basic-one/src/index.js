@@ -8,3 +8,7 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+// setTimeout(()=>{
+//   ReactDOM.unmountComponentAtNode(document.getElementById('root'))
+// },10000)

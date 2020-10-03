@@ -1,6 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
 class PropsValidation extends Component {
+
+    static propTypes = {
+            propArray: PropTypes.array.isRequired,
+            propBool:PropTypes.bool.isRequired,
+            propFunc:PropTypes.func,
+            propNumber:PropTypes.number,
+            propString:PropTypes.string,
+            propObject:PropTypes.object,    
+        }
 
     render() {
     
@@ -20,15 +30,6 @@ class PropsValidation extends Component {
         )
     }
 }
-
-// PropsValidation.propTypes = {
-//     propArray: React.PropTypes.array.isRequired,
-//     propBool:React.PropTypes.bool.isRequired,
-//     propFunc:React.PropTypes.func,
-//     propNumber:React.PropTypes.number,
-//     propString:React.PropTypes.string,
-//     propObject:React.propTypes.object,    
-// }
 
 PropsValidation.defaultProps = {
     propArray: [1, 2, 3, 4, 5],
