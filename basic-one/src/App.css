@@ -9,3 +9,6 @@ table tr td{
   border: 1px solid black;
   width: 200px;
 }
+ul{
+  list-style-type: none;
+}

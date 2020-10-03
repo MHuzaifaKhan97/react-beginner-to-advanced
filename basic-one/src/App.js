@@ -13,6 +13,10 @@ import { SimpleExample, ReactFormExample } from './components/ReactFormExample';
 import ReactEventExample from './components/ReactEventExample';
 import ConditionalRenderingExample from './components/ConditionalRenderingExample';
 import ReactListExample from './components/ReactListExample';
+import ReactRefsExample from './components/ReactRefsExample';
+import ReactFragmentExample from './components/ReactFragmentExample';
+import ReactRouterExample from './components/ReactRouterExample';
+import ReactHOC from './components/ReactHOC';
 
 class App extends Component {
 
@@ -53,9 +57,19 @@ class App extends Component {
 
         {/* <ConditionalRenderingExample /> */}
 
-        <ReactListExample />
+        {/* <ReactListExample /> */}
+
+        {/* <ReactRefsExample /> */}
+
+        {/* <ReactFragmentExample /> */}
+
+        {/* <ReactRouterExample /> */}
+
+        {/* <ReactHOC /> */}
+
       </div>
     );
   }
 }
+App = ReactHOC(App)
 export default App;
