@@ -1,0 +1,28 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.nav{
+  display: flex;
+  /* justify-content: space-around; */
+  list-style-type: none;
+  background-color: rgb(31, 28, 28);
+  padding: 20px 0;
+}
+.nav-link{
+  text-decoration: none;
+  color: #fff;
+  padding: 0px 30px;
+}
+h1{
+  text-align: center;
+  margin-top: 100px;
+}
+.mystyle{
+  color:red;
+  background-color:lightblue;
+  padding:20px 0px;
+  text-transform:uppercase;
+  text-shadow:2px 4px 3px orange;
+}
