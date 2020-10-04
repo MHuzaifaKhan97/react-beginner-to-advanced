@@ -17,6 +17,8 @@ import ReactRefsExample from './components/ReactRefsExample';
 import ReactFragmentExample from './components/ReactFragmentExample';
 import ReactRouterExample from './components/ReactRouterExample';
 import ReactHOC from './components/ReactHOC';
+import ConstructorExample from './components/ConstructorExample';
+import ReactAnimationExample from './components/ReactAnimationExample';
 
 class App extends Component {
 
@@ -67,9 +69,13 @@ class App extends Component {
 
         {/* <ReactHOC /> */}
 
+        {/* <ConstructorExample /> */}
+
+        <ReactAnimationExample />
+
       </div>
     );
   }
 }
-App = ReactHOC(App)
+// App = ReactHOC(App)
 export default App;
